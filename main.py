@@ -37,7 +37,7 @@ def getCpuUsage(remoteConnection):
 def monitor():
     remoteConnection = establish_ssh_connection()
     while True:
-        display_usage(getCpuUsage(remoteConnection), getMemoryUsage(remoteConnection), 30)
+        display_usage(getCpuUsage(remoteConnection), getMemoryUsage(remoteConnection), 15)
         time.sleep(0.5)
 
 #A call to run the application

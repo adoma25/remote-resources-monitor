@@ -4,4 +4,4 @@ ADD main.py .
 
 RUN pip install fabric
 
-CMD ["python", "./main.py"]
+CMD ["python", "-u", "./main.py"]
