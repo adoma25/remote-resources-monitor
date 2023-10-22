@@ -1,7 +1,6 @@
 import time
 from itertools import count
 import getpass
-import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from fabric import Connection, Config
