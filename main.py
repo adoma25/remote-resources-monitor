@@ -1,5 +1,4 @@
 import time
-import psutil
 import getpass
 from fabric import Connection, Config
 
