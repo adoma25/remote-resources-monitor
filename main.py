@@ -86,5 +86,14 @@ def graphicalMonitor():
 
 
 #Calls to run the application
-#textMonitor()
-graphicalMonitor()
+#
+#
+
+def main():
+    monitorType = int(input("Type 0 for graphical version or 1 for command line version. Note! graphical interface only working on windows!: "))
+    if(monitorType==0):
+        graphicalMonitor()
+    else:
+        textMonitor()
+
+main()
