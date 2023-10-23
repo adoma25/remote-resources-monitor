@@ -42,6 +42,11 @@ Run the built image:
 
 ``` sudo docker run --interactive --tty rrmonitor ```
 
+### Terminal-Version in Docker Linux
+
+![image](https://github.com/adoma25/remote-resources-monitor/assets/37664899/36fbb2ef-817e-4a07-ba94-e9bab9947384)
+
+
 ### Windows
 
 If python >= 3.8 is installed you can run ``` python main.py ``` . Alternatively, Docker can be used on windows following similar steps.
