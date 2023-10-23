@@ -5,6 +5,20 @@ A python application that allows to monitor RAM &amp; CPU usages for a remote ma
 Script connects to remote machine over ssh and fetchs current resources usage.
 Works on Linux & Windows
 
+## Brief
+
+### Methodology
+Fabric is used to establish a connection between the host and the remote machine.
+Top and Free are used to fetch the CPU and RAM usage in order to insure compatibility accross all linux distributions.
+A simple reaccuring bar is used to represnt the data over text
+Matplotlib is used to plot the data into a graphical visualisation
+
+### Issues
+Complications arise when trying to run a GUI script in a docker container environment that would require the use something similar to a VNC or X server in order to give access of the hosts display
+
+### Fixes
+One ideal fix would be to change from Docker to Conda 
+
 ## Requirements
 Docker || Python >= 3.8
 
