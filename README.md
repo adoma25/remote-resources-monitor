@@ -8,13 +8,13 @@ Works on Linux & Windows
 ## Brief
 
 ### Methodology
-Fabric is used to establish a connection between the host and the remote machine.
-Top and Free are used to fetch the CPU and RAM usage in order to insure compatibility accross all linux distributions.
-A simple reaccuring bar is used to represnt the data over text
-Matplotlib is used to plot the data into a graphical visualisation
+Fabric is used to establish a connection between the host and the remote machine.  
+Top and Free are used to fetch the CPU and RAM usage in order to ensure compatibility across all linux distributions.  
+A simple recurring bar is used to represent the data over text.  
+Matplotlib is used to plot the data into a graphical visualization.  
 
 ### Issues
-Complications arise when trying to run a GUI script in a docker container environment that would require the use something similar to a VNC or X server in order to give access of the hosts display
+Complications arise when trying to run a GUI script in a docker container environment that would require the use of something similar to a VNC or X server in order to give access of the hosts display
 
 ### Fixes
 One ideal fix would be to change from Docker to Conda 
